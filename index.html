@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>MasasOutliner 公式操作マニュアル</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="階層型思考プロセッサ MasasOutliner 公式操作マニュアル">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- テーマスタイル (Vue theme) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- KaTeX (数式表示用) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  
+  <style>
+    :root {
+      --theme-color: #2b579a; /* アプリテーマに合わせた上品なブルー */
+    }
+    /* 等幅フォントの指定 */
+    .markdown-section code, .markdown-section pre {
+      font-family: 'HackGen', 'Consolas', 'Courier New', monospace;
+    }
+    /* サイドバーのタイトルの太字化 */
+    .app-name-link {
+      font-weight: bold;
+      font-size: 1.15rem;
+    }
+    /* 表のスタイル微調整 */
+    .markdown-section table {
+      display: table;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">読み込み中...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'MasasOutliner',
+      repo: '', // GitHubリポジトリURLがある場合はここに指定（例: 'https://github.com/ユーザー名/MasasOutliner'）
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      homepage: 'README.md',
+      search: {
+        placeholder: 'マニュアル内を検索...',
+        noData: '該当する項目が見つかりませんでした',
+        depth: 3
+      },
+      copyCode: {
+        buttonText: 'コピー',
+        errorText: 'エラー',
+        successText: 'コピー完了'
+      },
+      pagination: {
+        previousText: '前の章へ',
+        nextText: '次の章へ',
+        crossChapter: true,
+        crossChapterText: true
+      }
+    }
+  </script>
+
+  <!-- Docsify Core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- 検索プラグイン -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- コードコピーボタン -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 画像ズーム表示 (Medium風) -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- ページネーション (前へ/次へ) -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- KaTeX 数式レンダリングプラグイン -->
+  <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+</body>
+</html>
