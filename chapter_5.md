@@ -118,7 +118,7 @@ PDF、Office文書、ZIP書庫、ソースコードなど、あらゆるファ�
 
 ### 5.4 本格スプレッドシート（Table）
 
-MasasOutliner は、業界標準の表計算エンジン（Apache POI / Excel `.xlsx`）を完全に内蔵しており、マークダウンの簡易表では実現できない高度な計算、セル結合、書式設定に対応します。
+MasasOutliner は、Excelと高い互換性を持つ本格表計算エンジンを完全に内蔵しており、マークダウンの簡易表では実現できない高度な計算、セル結合、数値書式設定に対応します。
 
 ![本格スプレッドシート編集ダイアログ](images/placeholder_spreadsheet_editor.png)
 
@@ -207,7 +207,7 @@ MasasOutliner は、業界標準の表計算エンジン（Apache POI / Excel `.
 
 ### 5.5 LaTeX数式（Math）
 
-学術論文、技術仕様書、数理モデルの記述に不可欠な LaTeX 記法による高品質な数式レンダリングエンジン（SnuggleTeX + JEuclid）を搭載しています。
+学術論文、技術仕様書、数理モデルの記述に不可欠な LaTeX 記法による高品質な数式レンダリングエンジンを搭載しています。
 
 ![LaTeX数式ダイアログ](images/placeholder_math_dialog.png)
 
@@ -340,3 +340,9 @@ GUI操作による自由なブロック図、システム構成図、UIモック
   * 名前を付けて保存 (エクスポート)...（他者への図面配布に便利）
   * プリセット倍率変更 / 数値指定リサイズ
   * 削除(D) / プロパティ
+
+#### 5.6.4 作図記法公式リファレンス
+各ダイアグラムの詳細な構文や高度な記法については、以下の公式リファレンスをご活用ください：
+* **PlantUML**: [PlantUML 公式言語リファレンス (日本語)](https://plantuml.com/ja/)
+* **Mermaid**: [Mermaid.js 公式ドキュメント (英語)](https://mermaid.js.org/)
+* **draw.io**: [draw.io (diagrams.net) 公式サイト](https://www.drawio.com/)
