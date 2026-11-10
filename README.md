@@ -4,7 +4,7 @@
 
 MasasOutliner は、思考の整理・長文執筆・情報集約をシームレスに行うために設計された、デスクトップ向けの本格的な階層型思考プロセッサ（アウトライナー）です。
 
-![メイン画面](images/screen_main_layout.png)
+![メイン画面](images/screen_main_overview.png)
 
 ---
 
